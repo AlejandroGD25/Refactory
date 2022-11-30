@@ -4,8 +4,8 @@ package ejercicio.uf2;
 public class PrimaEmpleat {
 
     private String nom;
-	private String directiu;
-	private int antiguitat;
+    private String directiu;
+    private int antiguitat;
 
 	public static void main(String[] args) {
             PrimaEmpleat e = new PrimaEmpleat("Elvira", "S", 11);
