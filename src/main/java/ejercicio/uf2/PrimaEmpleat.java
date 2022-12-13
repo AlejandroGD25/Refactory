@@ -11,20 +11,20 @@ public class PrimaEmpleat {
     public int p = 0;
 
 	public void AdjuntarPrima(PrimaEmpleat e) {
-            final int primaDirectiuAntic = 600;
-            final int primaDirectiuNou = 400;
-            final int primaEmpleatAntic = 150;
-            final int primaEmpleatNou = 100;
+            final int prima1 = 600;
+            final int prima2 = 400;
+            final int prima3 = 150;
+            final int prima4 = 100;
             if(e.antiguitat >= 0 && e.antiguitat < maxAntiguetat)
                 if(e.directiu == "S"){
-                    p = primaDirectiuAntic;
+                    p = prima1;
                 } else {
-                    p = primaDirectiuNou;
+                    p = prima2;
                 } else if(e.directiu == "N"){
                     if(e.antiguitat > Antiguetat){
-                        p = primaEmpleatAntic;
+                        p = prima3;
                     } else {
-                        p = primaEmpleatNou;
+                        p = prima4;
                     }
                 } else {
                     System.out.println("El codi del càrrec ha de ser 'S' o 'N'");
